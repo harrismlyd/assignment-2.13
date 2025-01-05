@@ -19,9 +19,7 @@ The primary goal of Terraform is for comprehensive infrastructure management wit
 3. The serverless framework has a lower learning curve for developers as it has a simplified deployment process.
 Terraform has a higher learning curve, however it is more powerful and flexible for infrastructure management.
 
-4. The Serverless Framework does not maintain a detailed state file. It relies on the cloud provider infrastructure to keep track of the resources deployed. When deploying changes, it performs incremental updates based on the changes detected in the configuration files. The serverless framework does not have built-in rollback capabilities. If a deployment fails, users may need to manually revert to a previous state.
-
-Terraform uses a state file to keep track of infrastructure resources it manages. Terraform plan would generate an execution plan showing what changes will be made. Terraform apply will then execute these changes. Terraform can handle rollbacks by applying a previous state.
+4. The Serverless Framework does not maintain a detailed state file. It relies on the cloud provider infrastructure to keep track of the resources deployed. When deploying changes, it performs incremental updates based on the changes detected in the configuration files. The serverless framework does not have built-in rollback capabilities. If a deployment fails, users may need to manually revert to a previous state.<br>Terraform uses a state file to keep track of infrastructure resources it manages. Terraform plan would generate an execution plan showing what changes will be made. Terraform apply will then execute these changes. Terraform can handle rollbacks by applying a previous state.
 
 5. Serverless Frameworks is used when the project primarily involved building and deploying serverless applications. It is also used when you need rapid prototyping. If you team consists mainly of developers focus on writing business logic then the serverless frameworks is a good choice.
 
