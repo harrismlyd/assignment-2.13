@@ -13,7 +13,7 @@ Make a comparison between Serverless Framework and Terraform as tools for IaC. A
 
 1. Serverless framework is best when you need to rapidly deploy serverless applications in microservices and event-driven context. <br>Terraform is for more comprehensive infrastructure management across multiple services and environment. 
 
-2. The primary goal of serverless framework is to simplify the development and deployment of serverless applications enabling developers to quickly build and deploy event-driven functions.
+2. The primary goal of serverless framework is to simplify the development and deployment of serverless applications enabling developers to quickly build and deploy event-driven functions.<br>
 The primary goal of Terraform is for comprehensive infrastructure management with tools for managing a wide array of cloud resources in a consistent and controlled manner.
 
 3. The serverless framework has a lower learning curve for developers as it has a simplified deployment process.
